@@ -1,7 +1,7 @@
 describe("", function() {
   let resultado =  obtenerInfoDelParrafo("Do. Or do not. There is no try.");
   it("Si hacemos  obtenerInfoDelParrafo('Do. Or do not. There is no try.') la cantidad de letras es 21", function() {
-    assert.equal(resultado.letras, 21);
+    assert.equal(21, resultado.letras);
   })
   it("Si hacemos  obtenerInfoDelParrafo('Do. Or do not. There is no try.') la cantidad de palabras es 8", function() {
     assert.equal(resultado.palabras, 8);
