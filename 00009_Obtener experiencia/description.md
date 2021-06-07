@@ -1,11 +1,11 @@
-- Crear una función que dado un objeto que contenga niveles de experiencia y puntaje por cada nivel, y un objeto con la cantidad de desafíos realizados por cada nivel, devuelva la cantidad total de experiencia obtenida
-- (Pista) deberia recorrer todo uno de los objeto que nos pasan por parametro,haciendo refencia al indice(EASE,MEDIUM,HARD)
-- (Pista) deberia crear un acumulador para sumar los puntajes parciales
-- (Pista) deberia tomar los valores de ambos objetos con el mismo indice y multiplicarlo
-
+Necesitamos una función que nos ayude a calcular la experiencia obtenida de un juego.
+Para ello vamos a definir `obtenerExperiencia` que dado un objeto que contenga niveles de experiencia y puntaje por cada nivel, y un objeto con la cantidad de desafíos realizados por cada nivel, devuelva la cantidad total de experiencia obtenida
 
 ```javascript
-const score = { EASY: 10, MEDIUM: 50, HARD: 100 };
-const challenges = { EASY: 3, MEDIUM: 4, HARD: 2 };
-getXP(challenges, score); // returns 430 (3 * 10 + 4 * 50 + 2 * 100)
+const puntajes = { EASY: 10, MEDIUM: 50, HARD: 100 };
+const desafios = { EASY: 3, MEDIUM: 4, HARD: 2 };
+ムobtenerExperiencia(challenges, score);
+430 //(3 * 10 + 4 * 50 + 2 * 100)
 ```
+
+> Definí la función `obtenerExperiencia`.
