@@ -2,7 +2,7 @@ Necesitamos una función que dado un string devuelva un objeto con la cantidad d
 
 ```javascript
 ム obtenerInfoDelParrafo("Do. Or do not. There is no try.");
-{ LETTERS:  21, WORDS: 8, SENTENCE: 3 }
+{ letras:  21, palabras: 8, oraciones: 3 }
 ```
 
 > Definí la función `obtenerInfoDelParrafo`.
