@@ -34,6 +34,6 @@ describe("", function() {
       remuneracion: 40000
     }
 
-    assert.not(seAdecua(persona, busqueda));
+    assert.equal(seAdecua(persona, busqueda), false);
   })
 });
