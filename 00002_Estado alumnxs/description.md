@@ -21,13 +21,11 @@ const materiasGrace = {
 ```js
 
 ム agruparMateriasPorEstado(materiasAda);
-  aprobadas: ['matematica', 'algoritmos', 'algebra'],
-  desaprobados: []
+  aprobadas: ['matematica', 'algoritmos', 'algebra'], desaprobadas: []
 
 
 ム agruparMateriasPorEstado(materiasGrace);
-   aprobadas: ['matematica', 'algoritmos'],
-   desaprobados: ['algebra]
+   aprobadas: ['matematica', 'algoritmos'], desaprobadas: ['algebra]
 ```
 
 > Definí la función `agruparMateriasPorEstado` y las funciones auxiliares necesarias para lograr el comportamiento que acabamos de describir.
