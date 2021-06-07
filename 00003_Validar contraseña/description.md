@@ -1,6 +1,7 @@
 Tenemos los datos de distintas personas que quieren crear un user dentro de GMail, todos los datos se guardan como objetos con las propiedades que mostramos posteriormente.
 Nos pidieron implementar una función, llamada `validarPassword`, que recibe estos objetos y valide la contraseña
-- la función nos tiene qu retornar un objeto con dos propiedades: `verificada` (un booleano) y `mensaje` (un string que contiene el mensaje de la validación que falló, o vacío si salió todo bien);
+
+- la función nos tiene que retornar un objeto con dos propiedades: `verificada` (un booleano) y `mensaje` (un string que contiene el mensaje de la validación que falló, o vacío si salió todo bien);
 - de la contraseña tenemos que validar:
   - que la longitud sea mayor o igual a 6 (si es menor, retornar el mensaje "Contraseña con menos de 6 caracteres");
   - que la contraseña no sea una de: "123456", "password", "111111", "qwerty" (si coincide con alguna de esas contraseñas, retornar el mensaje "Contraseña muy insegura")
