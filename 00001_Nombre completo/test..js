@@ -11,7 +11,7 @@ describe("", function() {
   })
 });
 
-/*describe("", function() {
+describe("", function() {
   const eddie = {
   nombre: 'Eddie',
   apellido: 'Vedder',
@@ -22,7 +22,7 @@ describe("", function() {
     let resultado = obtenerNombreCompleto(eddie);
     assert.equal(resultado,'Eddie Vedder');
   })
-});*/
+});
 
 describe("", function() {
   const brenda = {
@@ -32,7 +32,7 @@ describe("", function() {
   plan: 'premium'
 };
   it("Si la función obtenerNombreCompleto, recibe por parámetro una persona que se llama Brenda Martin, nos va a retornar Brenda MArtin", function() {
-    let resultado = obtenerNombreCompleto(eddie);
+    let resultado = obtenerNombreCompleto(brenda);
     assert.equal(resultado,'Brenda Martin');
   })
 })
