@@ -14,15 +14,17 @@ describe("", function() {
   })
 });
 
-/*describe("", function() {
-  let resultado =  obtenerInfoDelParrafo("¿Mi nombre qué letras tiene?. ¿Acaso es el quien en pie me mantiene?");
+describe("", function() {
   it("Si hacemos obtenerInfoDelParrafo('¿Mi nombre qué letras tiene?. ¿Acaso es el quien en pie me mantiene?') la cantidad de letras es 51", function() {
+    let resultado =  obtenerInfoDelParrafo("¿Mi nombre qué letras tiene?. ¿Acaso es el quien en pie me mantiene?");
     assert.equal(resultado.letras, 51);
   })
   it("Si hacemos obtenerInfoDelParrafo('¿Mi nombre qué letras tiene?. ¿Acaso es el quien en pie me mantiene?') la cantidad de palabras es 13", function() {
+    let resultado =  obtenerInfoDelParrafo("¿Mi nombre qué letras tiene?. ¿Acaso es el quien en pie me mantiene?");
     assert.equal(resultado.palabras, 13);
   })
   it("Si hacemos obtenerInfoDelParrafo('¿Mi nombre qué letras tiene?. ¿Acaso es el quien en pie me mantiene?') la cantidad de letras es 51", function() {
+    let resultado =  obtenerInfoDelParrafo("¿Mi nombre qué letras tiene?. ¿Acaso es el quien en pie me mantiene?");
     assert.equal(resultado.oraciones, 2);
   })
-});*/
+});
