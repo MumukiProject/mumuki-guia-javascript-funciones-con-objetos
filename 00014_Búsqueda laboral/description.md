@@ -1,4 +1,4 @@
-- Crear una función que dada una persona y una búsqueda de empleo, devuelva `true` si la persona se ajusta a dicha búsqueda. Ambos objetos tienen la siguiente estructura:
+Necesitamos una función que dada una persona y una búsqueda de empleo, devuelva `true` si la persona se ajusta a dicha búsqueda. Ambos objetos tienen la siguiente estructura:
 
 ```javascript
 persona = {
@@ -13,7 +13,7 @@ busqueda = {
   languages: ["JavaScript", "HTML"],
   location: ["Buenos Aires"],
   remuneration: 40000
-}//return true
+}
 ```
 
 La persona es adecuada si:
