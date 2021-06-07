@@ -1,14 +1,14 @@
-describe("Ver como testear", function() {
-  it("Descripción del ejemplo", function() {
-    assert(true)
-  })
-})
-
 describe("", function() {
-  const puntajes = { EASY: 10, MEDIUM: 50, HARD: 100 };
-  const desafios = { EASY: 3, MEDIUM: 4, HARD: 2 };
-  it("Si hacemos obtenerExperiencia({ EASY: 10, MEDIUM: 50, HARD: 100 }, { EASY: 3, MEDIUM: 4, HARD: 2 }) retorna 430", function() {
-    let resultado = obtenerExperiencia(puntajes, desafios);
-    assert.equal(resultado, 430);
+  it("Si hacemos obtenerInfoString('H3ll0 Wor1d') retorna {letras:  7, digitos: 3, espacios: 1}", function() {
+    let resultado = obtenerInfoString('H3ll0 Wor1d');
+    assert.equal(resultado, {letras:  7, digitos: 3, espacios: 1});
   })
 });
+
+describe("", function() {
+  it("Si hacemos obtenerInfoString('H3ll0 Wor1d') retorna {letras:  7, digitos: 3, espacios: 1}", function() {
+    let resultado = obtenerInfoString('H3ll0 Wor1d');
+    assert.equal(resultado, {letras:  7, digitos: 3, espacios: 1});
+  })
+});
+
