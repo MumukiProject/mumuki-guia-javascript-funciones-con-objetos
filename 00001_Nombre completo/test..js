@@ -11,7 +11,7 @@ describe("", function() {
   })
 });
 
-describe("", function() {
+/*describe("", function() {
   const eddie = {
   nombre: 'Eddie',
   apellido: 'Vedder',
@@ -22,7 +22,7 @@ describe("", function() {
     let resultado = obtenerNombreCompleto(eddie);
     assert.equal(resultado,'Eddie Vedder');
   })
-});
+});*/
 
 describe("", function() {
   const brenda = {
