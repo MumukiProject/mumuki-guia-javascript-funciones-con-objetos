@@ -9,7 +9,7 @@ describe("", function() {
     let resultado = obtenerNombreCompleto(valentina);
     assert.equal(resultado,'Valentina Tereshkova');
   })
-})
+});
 
 describe("", function() {
   const eddie = {
@@ -22,7 +22,7 @@ describe("", function() {
     let resultado = obtenerNombreCompleto(eddie);
     assert.equal(resultado,'Eddie Vedder');
   })
-})
+});
 
 describe("", function() {
   const brenda = {
