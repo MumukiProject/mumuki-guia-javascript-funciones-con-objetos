@@ -1,14 +1,25 @@
 describe("", function() {
-  it("Si hacemos obtenerInfoString('H3ll0 Wor1d') retorna {letras:  7, digitos: 3, espacios: 1}", function() {
-    let resultado = obtenerInfoString('H3ll0 Wor1d');
-    assert.equal(resultado, {letras:  7, digitos: 3, espacios: 1});
+  let resultado = obtenerInfoString('H3ll0 Wor1d');
+  it("Si hacemos obtenerInfoString('H3ll0 Wor1d') la cantidad de letras es 7", function() {
+    assert.equal(resultado.letras, 7);
+  })
+  it("Si hacemos obtenerInfoString('H3ll0 Wor1d') la cantidad de digitos es 3", function() {
+    assert.equal(resultado.digitos, 3);
+  })
+  it("Si hacemos obtenerInfoString('H3ll0 Wor1d') la cantidad de espacios es 1", function() {
+    assert.equal(resultado.espacios, 1);
   })
 });
 
 describe("", function() {
-  it("Si hacemos obtenerInfoString('H0L4 4D4, B13NV3N1D4') retorna {letras:  8, digitos: 10, espacios: 2}", function() {
-    let resultado = obtenerInfoString('H0L4 4D4, B13NV3N1D4');
-    assert.equal(resultado, {letras:  8, digitos: 10, espacios: 2});
+  let resultado = obtenerInfoString('H0L4 4D4, B13NV3N1D4');
+  it("Si hacemos obtenerInfoString('H0L4 4D4, B13NV3N1D4') la cantidad de letras es 8", function() {
+    assert.equal(resultado.letras, 8);
+  })
+  it("Si hacemos obtenerInfoString('H0L4 4D4, B13NV3N1D4') la cantidad de digítos es 10", function() {
+    assert.equal(resultado.digitos, 10);
+  })
+  it("Si hacemos obtenerInfoString('H0L4 4D4, B13NV3N1D4') la cantidad de espacios es 2", function() {
+    assert.equal(resultado.espacios, 2);
   })
 });
-
