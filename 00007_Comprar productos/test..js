@@ -5,3 +5,19 @@ describe("", function() {
     assert.equal(resultado, "mouse: true, teclado: true, monitor: false");
   })
 });
+
+describe("", function() {
+  const productos1 = { remera: 1000, zapatillas: 5000, pantalon: 1500 };
+  it("Si hacemos comprarProductos(5000, 'remera: 1000, zapatillas: 5000, pantalon: 1500', nos retorna 'remera: true, zapatillas: true, pantalon: true'", function() {
+    let resultado = comprarProductos(5000, productos1);
+    assert.equal(resultado, "remera: true, zapatillas: true, pantalon: true");
+  })
+});
+
+describe("", function() {
+  const productos2 = { fideos: 40, salsa: 45, cebolla: 30 };
+  it("Si hacemos comprarProductos(40, 'fideos: 40, salsa: 45, cebolla: 30', nos retorna 'fideos: true, salsa: false, cebolla: true'", function() {
+    let resultado = comprarProductos(40, productos2);
+    assert.equal(resultado, "fideos: true, salsa: false, cebolla: true");
+  })
+});
