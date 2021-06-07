@@ -4,7 +4,7 @@ Para ello vamos a definir `obtenerExperiencia` que dado un objeto que contenga n
 ```javascript
 const puntajes = { EASY: 10, MEDIUM: 50, HARD: 100 };
 const desafios = { EASY: 3, MEDIUM: 4, HARD: 2 };
-ムobtenerExperiencia(challenges, score);
+ムobtenerExperiencia(puntajes, desafios);
 430 //(3 * 10 + 4 * 50 + 2 * 100)
 ```
 
