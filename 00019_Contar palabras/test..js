@@ -1,16 +1,15 @@
 describe("", function() {
-  it("Si hacemos filtrarPropiedades({ a: 1, b: 2, c: 3 }, ['c', 'b']), nos retorna {b: 2, c: 3}", function() {
-   let data = { a: 1, b: 2, c: 3 };
-   let props = ["c", "b"];
-   let resultado = filtrarPropiedades(data, props)
-    assert.equal(resultado, {b: 2, c: 3});
+  it("Si hacemos contarPalabras('El que compra pocas capas pocas capas paga'), nos retorna {el: 1, que: 1, compra: 1, pocas: 2, capas: 2, paga: 1}", function() {
+   let frase = 'El que compra pocas capas pocas capas paga';
+   let resultado = contarPalabras(frase);
+    assert.equal(resultado, {el: 1, que: 1, compra: 1, pocas: 2, capas: 2, paga: 1});
   })
 });
 
 describe("", function() {
-   let data = { a: 11, b: 4, h: 8 };
-   let props = ["h"];
-   let resultado = filtrarPropiedades(data, props)
-    assert.equal(resultado, {h: 8});
+  it("Si hacemos contarPalabras('Quizás porque no soy un buen comerciante no pido nada a cambio de darte'), nos retorna {Quizás: 1, porque: 1, no: 2, soy: 2, un: 1, buen: 1, comerciante: 1, pido: 1, nada: 1, a: 1, cambio: 1, de: 1, darte: 1}", function() {
+   let frase = 'Quizás porque no soy un buen comerciante no pido nada a cambio de darte';
+   let resultado = contarPalabras(frase);
+    assert.equal(resultado, {Quizás: 1, porque: 1, no: 2, soy: 2, un: 1, buen: 1, comerciante: 1, pido: 1, nada: 1, a: 1, cambio: 1, de: 1, darte: 1});
   })
 });
