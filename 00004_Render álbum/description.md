@@ -1,22 +1,7 @@
-- Todos los discos en Spotify, se guardan como objetos que tienen las propiedades: `id` (string), `nombre` (string), `anio` (número), `genero` (array de strings), `banda` (string), `portada` (string) e `info` (string)
-- En este ejemplo, tenemos una variable `album`, con la información de un disco de Nirvana
-- Necesitamos crear una función `render` que reciba un objeto por parámetro (con las mismas propiedades que el objeto que tenemos guardado en `album`)
-- La función nos tiene que devolver el HTML que deberíamos agregar en nuestra web
-- El HTML con el que representamos un disco es:
-```html
-<div class="card m-5" id="nirv1234">
-  <img class="card-img-top" src="https://muzikalia.com/wp-content/uploads/2005/03/nirvana__with_the_lights_out.jpg" alt="Nirvana - With The Lights Out" />
-  <div class="card-body">
-    <h5 class="card-title">Nirvana</h5>
-    <p class="card-text">With The Lights Out (2004) | Grunge</p>
-    <a href="https://en.wikipedia.org/wiki/With_the_Lights_Out" class="btn btn-primary">https://en.wikipedia.org/wiki/With_the_Lights_Out</a>
-  </div>
-</div>
-```
+Queremos crear un html a partir de un objeto de JavaScript, más especificamente vamos a crear una página que nos permita visualizar discos de Spotify  :minidisc:. Los discos tienen las propiedades: `id` (string), `nombre` (string), `anio` (número), `genero` (array de strings), `banda` (string), `portada` (string) e `info` (string). Por ejemplo:
 
-- La variable `album` que tenemos en nuestra aplicación, ahora, es:
 ```js
-const album = {
+const albumDeEjemplo = {
   id: 'nirv1234',
   nombre: 'With The Lights Out',
   anio: 2004,
@@ -25,31 +10,22 @@ const album = {
   portada: 'https://muzikalia.com/wp-content/uploads/2005/03/nirvana__with_the_lights_out.jpg',
   info: 'https://en.wikipedia.org/wiki/With_the_Lights_Out'
 };
-
-// CODEA ACA LA SOLUCION
-
-render(album);
-// <div class="card m-5" id="nirv1234">
-//   <img class="card-img-top" src="https://muzikalia.com/wp-content/uploads/2005/03/nirvana__with_the_lights_out.jpg" alt="Nirvana - With The Lights Out" />
-//   <div class="card-body">
-//     <h5 class="card-title">Nirvana</h5>
-//     <p class="card-text">With The Lights Out (2004) | Grunge</p>
-//     <a href="https://en.wikipedia.org/wiki/With_the_Lights_Out" class="btn btn-primary">https://en.wikipedia.org/wiki/With_the_Lights_Out</a>
-//   </div>
-// </div>
 ```
 
-- 💡 Pista: para armar el HTML podés utilizar interpolación de strings, por ejemplo:
-```js
-const producto = {
-  nombre: 'Notebook',
-  precio: 123
-}
+Para eso definiremos una función `render` que reciba un disco como argumento y genere un HTML de la siguiente forma: 
 
-const html = `
-  <div class="producto">
-    <p>${producto.nombre}</p>
-    <small>ARS ${producto.precio}</small>
+```
+ム render(albumDeEjemplo)
+`
+<div class="card m-5" id="nirv1234">
+  <img class="card-img-top" src="https://muzikalia.com/wp-content/uploads/2005/03/nirvana__with_the_lights_out.jpg" alt="Nirvana - With The Lights Out" />
+  <div class="card-body">
+    <h5 class="card-title">Nirvana</h5>
+    <p class="card-text">With The Lights Out (2004) | Grunge</p>
+    <a href="https://en.wikipedia.org/wiki/With_the_Lights_Out" class="btn btn-primary">https://en.wikipedia.org/wiki/With_the_Lights_Out</a>
   </div>
-`;
+</div>
+`
 ```
+
+> Definí la función `render`.
