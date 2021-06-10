@@ -1,14 +1,14 @@
 Necesitamos una función que dada una persona y una búsqueda de empleo, devuelva si la persona se ajusta a dicha búsqueda. Ambos objetos tienen la siguiente estructura:
 
 ```javascript
-persona = {
+let persona = {
   experiencia: 4,
   lenguajes: ["JavaScript", "HTML","CSS"],
   locacion: ["Buenos Aires"],
   remuneracion: 35000
 }
 
-busqueda = {
+let busqueda = {
   experiencia: 1,
   lenguajes: ["JavaScript", "HTML"],
   locacion: ["Buenos Aires"],

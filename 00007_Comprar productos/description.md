@@ -1,8 +1,8 @@
 Necesitamos definir una función que dado un objeto con productos y precios, y la cantidad de dinero disponible, devuelva un objeto con dichos productos, teniendo como valor `true` si puede comprarlo o `false` sino
 
 ```javascript
-const productos = { cookies: 60, chocolate: 110, soda: 120 };
-const dinero = 115;
+let productos = { cookies: 60, chocolate: 110, soda: 120 };
+let dinero = 115;
 
 ムcomprarProductos(dinero, productos); 
  cookies: true, chocolate: true, soda: false
