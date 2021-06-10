@@ -1,7 +1,7 @@
 Queremos crear un html a partir de un objeto de JavaScript, más especificamente vamos a crear una página que nos permita visualizar discos de Spotify  :minidisc:. Los discos tienen las propiedades: `id` (string), `nombre` (string), `anio` (número), `genero` (array de strings), `banda` (string), `portada` (string) e `info` (string). Por ejemplo:
 
 ```js
-const albumDeEjemplo = {
+let albumDeEjemplo = {
   id: 'nirv1234',
   nombre: 'With The Lights Out',
   anio: 2004,
