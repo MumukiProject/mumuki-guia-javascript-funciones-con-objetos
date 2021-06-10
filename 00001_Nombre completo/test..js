@@ -1,5 +1,5 @@
 describe("", function() {
-  const valentina = {
+  let valentina = {
   nombre: 'Valentina',
   apellido: 'Tereshkova',
   email: 'Valentina.Tereshkova@gmail.com',
@@ -12,7 +12,7 @@ describe("", function() {
 });
 
 describe("", function() {
-  const eddie = {
+  let eddie = {
   nombre: 'Eddie',
   apellido: 'Vedder',
   email: 'Eddie.Veder@gmail.com',
@@ -25,7 +25,7 @@ describe("", function() {
 });
 
 describe("", function() {
-  const brenda = {
+  let brenda = {
   nombre: 'Brenda',
   apellido: 'Martin',
   email: 'Brenda.Martin@gmail.com',

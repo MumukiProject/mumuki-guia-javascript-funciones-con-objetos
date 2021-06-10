@@ -1,5 +1,5 @@
 describe("", function() {
-  const materiasAgus = {
+  let materiasAgus = {
     matematica: [3, 6, 8, 8],
     algoritmos: [10, 7, 9],
     algebra: [4, 5]
@@ -11,7 +11,7 @@ describe("", function() {
 });
 
 describe("", function() {
-  const materiasJuli = {
+  let materiasJuli = {
     matematica: [3, 2, 2, 3],
     algoritmos: [2, 4, 2],
     algebra: [4, 3]
@@ -23,7 +23,7 @@ describe("", function() {
 });
 
 describe("", function() {
-  const materiasJuli = {
+  let materiasJuli = {
     matematica: [3, 3, 3, 4],
     algoritmos: [4, 4, 4],
     algebra: [4, 4]

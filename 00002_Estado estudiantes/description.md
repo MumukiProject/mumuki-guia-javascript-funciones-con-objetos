@@ -1,13 +1,13 @@
 Estamos diseñando un nuevo sistema para una facultad, y tenemos la información de las materias para cada estudiante en objetos donde cada propiedad es una materia que contiene un array con las notas de los resultados de los parciales
 
 ```js
-const materiasAda = {
+let materiasAda = {
   matematica: [10, 6, 10, 8],
   algoritmos: [10, 10, 9],
   algebra: [7, 9]
 };
 
-const materiasGrace = {
+let materiasGrace = {
   matematica: [2, 9, 10, 7],
   algoritmos: [7, 1, 9],
   algebra: [2, 3]
