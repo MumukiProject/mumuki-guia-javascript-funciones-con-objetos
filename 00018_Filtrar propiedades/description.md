@@ -7,4 +7,4 @@ let props = ["c", "b"];
 {b: 2, c: 3}
 ```
 
-> Definí la función `` para lograr el comportamiento que acabamos de describir.
+> Definí la función `filtrarPropiedades` para lograr el comportamiento que acabamos de describir.
