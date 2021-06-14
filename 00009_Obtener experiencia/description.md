@@ -1,5 +1,5 @@
 Necesitamos una función que nos ayude a calcular la experiencia obtenida de un juego.
-Para ello vamos a definir `obtenerExperiencia` que dado un objeto que contenga niveles de experiencia y puntaje por cada nivel, y un objeto con la cantidad de desafíos realizados por cada nivel, devuelva la cantidad total de experiencia obtenida
+Para ello vamos a definir `obtenerExperiencia` que dado un objeto que contenga niveles de experiencia y puntaje por cada nivel, y un objeto con la cantidad de desafíos realizados por cada nivel, devuelva la cantidad total de experiencia obtenida.
 
 ```javascript
 let puntajes = { EASY: 10, MEDIUM: 50, HARD: 100 };
