@@ -1,4 +1,4 @@
-Tenemos los datos de distintas personas que quieren crear un perfil dentro de GMail, todos los datos se guardan como objetos con las propiedades que mostramos posteriormente.
+Tenemos los datos de distintas personas que quieren crear un perfil dentro de Gmail, todos los datos se guardan como objetos con las propiedades que mostramos posteriormente.
 Nos pidieron implementar una función, llamada `validarPassword`, que recibe estos objetos y valide la contraseña.
 
 - la función nos tiene que retornar un objeto con dos propiedades: `verificada` (un booleano) y `mensaje` (un string que contiene el mensaje de la validación que falló, o vacío si salió todo bien);
