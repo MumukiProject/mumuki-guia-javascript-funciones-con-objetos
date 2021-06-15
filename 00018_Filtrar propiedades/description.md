@@ -1,4 +1,4 @@
-Necesitamos una función que reciba por parámetro un objeto y un array con strings, y devuelva el objeto con solo las propiedades especificadas en el array.
+Necesitamos una función que tome por parámetro un objeto y un array con strings, y devuelva el objeto con solo las propiedades especificadas en el array.
 
 ```javascript
 let data = { a: 1, b: 2, c: 3 };
