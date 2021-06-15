@@ -3,8 +3,8 @@ Necesitamos una función que devuelva el volumen de una caja cuando se le pase u
 ```javascript
 let tamaño = { width: 2, length: 5, height: 1 };
 
-ムvolumenCaja(tamaño);
+ム volumenCaja(tamaño)
 10
 ```
 
-> Definí la función `valumenCaja` que tome por parámetro un tamaño y calcule su volumen.
+> Definí la función `volumenCaja` que tome por parámetro un tamaño y calcule su volumen.
