@@ -5,7 +5,7 @@ Para ello vamos a definir `obtenerExperiencia` que dado un objeto que contenga n
 let puntajes = { EASY: 10, MEDIUM: 50, HARD: 100 };
 let desafios = { EASY: 3, MEDIUM: 4, HARD: 2 };
 
-ムobtenerExperiencia(puntajes, desafios);
+ム obtenerExperiencia(puntajes, desafios)
 430 //(3 * 10 + 4 * 50 + 2 * 100)
 ```
 

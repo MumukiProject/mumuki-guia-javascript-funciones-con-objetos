@@ -3,7 +3,7 @@ Queremos crear una función que dado un objeto con productos y precios, y la can
 ```javascript
 let productos = { cookies: 60, chocolate: 110, soda: 120 };
 let dinero = 300;
-ム puedoComprarTodos(dinero, productos);
+ム puedoComprarTodos(dinero, productos)
 true
 ```
 
