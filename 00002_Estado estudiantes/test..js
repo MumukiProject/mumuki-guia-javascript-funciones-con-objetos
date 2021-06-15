@@ -6,7 +6,7 @@ describe("", function() {
   };
   it("Si Agus aprobó todas las materias, al hacer agruparMateriasPorEstado(materiasAgus) nos devuelve { aprobadas: ['matematica', 'algoritmos', 'algebra'], desaprobadas: [] }", function() {
     let resultado = agruparMateriasPorEstado(materiasAgus);
-    assert.equal(resultado,{ aprobadas: ['matematica', 'algoritmos', 'algebra'], desaprobadas: []});
+    assert.deepEqual(resultado,{ aprobadas: ['matematica', 'algoritmos', 'algebra'], desaprobadas: []});
   })
 });
 
@@ -18,7 +18,7 @@ describe("", function() {
   };
   it("Si Juli desaprobó todas las materias, al hacer agruparMateriasPorEstado(materiasJuli) nos devuelve { aprobadas: [], desaprobadas: ['matematica', 'algoritmos', 'algebra'] }", function() {
     let resultado = agruparMateriasPorEstado(materiasJuli);
-    assert.equal(resultado,{ aprobadas: [], desaprobadas: ['matematica', 'algoritmos', 'algebra'] });
+    assert.deepEqual(resultado,{ aprobadas: [], desaprobadas: ['matematica', 'algoritmos', 'algebra'] });
   })
 });
 
@@ -30,6 +30,6 @@ describe("", function() {
   };
   it("Si Ale desaprobó matematica, al hacer agruparMateriasPorEstado(materiasAle) nos devuelve { aprobadas: ['algoritmos', 'algebra'], desaprobadas: ['matematica'] }", function() {
     let resultado = agruparMateriasPorEstado(materiasJuli);
-    assert.equal(resultado,{ aprobadas: ['algoritmos', 'algebra'], desaprobadas: ['matematica'] });
+    assert.deepEqual(resultado,{ aprobadas: ['algoritmos', 'algebra'], desaprobadas: ['matematica'] });
   })
 });
