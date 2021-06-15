@@ -7,4 +7,4 @@ let tamaño = { width: 2, length: 5, height: 1 };
 10
 ```
 
-> Definí la función `valumenCaja` que reciba por parámetro un tamaño y calcule su volumen.
+> Definí la función `valumenCaja` que tome por parámetro un tamaño y calcule su volumen.

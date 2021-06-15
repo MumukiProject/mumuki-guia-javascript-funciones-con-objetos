@@ -7,4 +7,4 @@ let combatienteB = { nombre: "Cammy", vida: 50, ataque: 20, defensa: 20 };
 ム pelea(combatienteA, combatienteB);
 { rondas: 3, gano: "Chun-Li"}
 ```
-> Definí la función `pelea` que retorne un objeto que indique la cantidad de rondas de duración y quién ganó.
+> Definí la función `pelea` que retorne un objeto que indique la cantidad de rondas y quién ganó.
