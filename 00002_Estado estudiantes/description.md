@@ -1,4 +1,4 @@
-Estamos diseñando un nuevo sistema para una facultad, y tenemos la información de las materias para cada estudiante en objetos donde cada propiedad es una materia que contiene un array con las notas de los resultados de los parciales, por ejemplo:
+Estamos diseñando un nuevo sistema para una facultad, y tenemos la información de las materias para cada estudiante en objetos donde cada propiedad es una materia que contiene un array con las notas de los resultados de los parciales. Por ejemplo:
 
 ```js
 let materiasAda = {
@@ -14,18 +14,17 @@ let materiasGrace = {
 };
 ```
 
-- Nos pidieron generar un informe que muestre las materias aprobadas (promedio de notas >= 4) y desaprobadas (promedio de notas < 4)
-- Para implementar este reporte, tenemos que definir una función que tome como parámetro de entrada un objeto con las materias y sus notas, y nos retorne un objeto con dos propiedades: `aprobadas` y `desaprobadas`;
+- Nos pidieron generar un informe que muestre las materias aprobadas (promedio de notas >= 4) y desaprobadas (promedio de notas < 4);
+- para implementar este reporte, tenemos que definir una función que tome un objeto con las materias y sus notas, y nos retorne un objeto con dos propiedades: `aprobadas` y `desaprobadas`;
 - cada propiedad es un array que contiene el nombre de las materias que aprobaron o desaprobaron respectivamente.
 
 ```js
+ム agruparMateriasPorEstado(materiasAda)
+{ aprobadas: ['matematica', 'algoritmos', 'algebra'], desaprobadas: [] }
 
-ム agruparMateriasPorEstado(materiasAda);
-  aprobadas: ['matematica', 'algoritmos', 'algebra'], desaprobadas: []
 
-
-ム agruparMateriasPorEstado(materiasGrace);
-   aprobadas: ['matematica', 'algoritmos'], desaprobadas: ['algebra]
+ム agruparMateriasPorEstado(materiasGrace)
+{ aprobadas: ['matematica', 'algoritmos'], desaprobadas: ['algebra'] }
 ```
 
 > Definí la función `agruparMateriasPorEstado` y las funciones auxiliares necesarias para lograr el comportamiento que acabamos de describir.
