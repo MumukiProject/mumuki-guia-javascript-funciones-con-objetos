@@ -31,7 +31,7 @@ describe("", function() {
   email: 'Brenda.Martin@gmail.com',
   plan: 'premium'
 };
-  it("Si la función obtenerNombreCompleto, recibe por parámetro una persona que se llama Brenda Martin, nos va a retornar Brenda MArtin", function() {
+  it("Si la función obtenerNombreCompleto, recibe por parámetro una persona que se llama Brenda Martin, nos va a retornar Brenda Martin", function() {
     let resultado = obtenerNombreCompleto(brenda);
     assert.equal(resultado,'Brenda Martin');
   })
