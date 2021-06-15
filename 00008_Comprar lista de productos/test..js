@@ -17,7 +17,7 @@ describe("", function() {
 describe("", function() {
   let productos2 = { fideos: 40, salsa: 45, cebolla: 30 };
   it("Si hacemos puedoComprarTodos(150, { fideos: 40, salsa: 45, cebolla: 30 }, nos retorna true", function() {
-    let resultado = puedoComprarTodos(40, productos2);
+    let resultado = puedoComprarTodos(150, productos2);
     assert(resultado);
   })
 });
