@@ -30,11 +30,11 @@ Nos pidieron implementar una función, llamada `validarPassword`, que reciba un 
   - que la contraseña no sea una de: "123456", "password", "111111", "qwerty" (si coincide con alguna de esas contraseñas, retornar el mensaje "Contraseña muy insegura")
 
 ```js
-ムvalidarPassword(perfil1)
+ム validarPassword(perfil1)
 { verificada: false, mensaje: 'Contraseña muy insegura' } 
-ムvalidarPassword(perfil2)
+ム validarPassword(perfil2)
 { verificada: true, mensaje: '' }
-ムvalidarPassword(perfil3)
+ム validarPassword(perfil3)
 { verificada: false, mensaje: 'Contraseña con menos de 6 caracteres' }
 ```
 
