@@ -22,7 +22,7 @@ let perfil3 = {
   password: '1234'
 };
 ```
-Nos pidieron implementar una función, llamada `validarPassword`, que reciba un objeto y valide la contraseña.
+Nos pidieron implementar una función, llamada `validarPassword`, que reciba un perfil y valide la contraseña.
 
 - la función nos tiene que retornar un objeto con dos propiedades: `verificada` (un booleano) y `mensaje` (un string que contiene el mensaje de la validación que falló, o vacío si salió todo bien);
 - de la contraseña tenemos que validar:
