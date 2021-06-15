@@ -5,9 +5,9 @@ describe("", function() {
   email: 'grace.hopper@gmail.com',
   password: '123456'
 };
-  it("Si hacemos validarPassword(user1) debería retornar verificada: false, mensaje: 'Contraseña muy insegura'", function() {
+  it("Si hacemos validarPassword(user1) debería retornar { verificada: false, mensaje: 'Contraseña muy insegura' }", function() {
     let resultado = validarPassword(user1);
-    assert.equal(resultado,"verificada: false, mensaje: 'Contraseña muy insegura'");
+    assert.equal(resultado,{ verificada: false, mensaje: 'Contraseña muy insegura' });
   })
 });
 
@@ -18,9 +18,9 @@ describe("", function() {
   email: 'ada.lovelace@gmail.com',
   password: '**178!Ada--'
 };
-  it("Si hacemos validarPassword(user2) debería retornar verificada: true, mensaje: ''", function() {
+  it("Si hacemos validarPassword(user2) debería retornar { verificada: true, mensaje: '' }", function() {
     let resultado = validarPassword(user2);
-    assert.equal(resultado,"verificada: true, mensaje: ''");
+    assert.equal(resultado,{ verificada: true, mensaje: '' });
   })
 });
 
@@ -31,8 +31,8 @@ describe("", function() {
   email: 'hlamarr@gmail.com',
   password: '1234'
 };
-  it("Si hacemos validarPassword(user3) debería retornar verificada: false, mensaje: 'Contraseña con menos de 6 caracteres'", function() {
+  it("Si hacemos validarPassword(user3) debería retornar { verificada: false, mensaje: 'Contraseña con menos de 6 caracteres' }", function() {
     let resultado = validarPassword(user3);
-    assert.equal(resultado,"verificada: false, mensaje: 'Contraseña con menos de 6 caracteres'");
+    assert.equal(resultado,{ verificada: false, mensaje: 'Contraseña con menos de 6 caracteres' });
   })
 })
