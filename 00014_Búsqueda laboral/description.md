@@ -4,7 +4,7 @@ Necesitamos una función que dada una persona y una búsqueda de empleo, devuelv
 let persona = {
   experiencia: 4,
   lenguajes: ["JavaScript", "HTML","CSS"],
-  locacion: ["Buenos Aires"],
+  locacion: "Buenos Aires",
   remuneracion: 35000
 }
 

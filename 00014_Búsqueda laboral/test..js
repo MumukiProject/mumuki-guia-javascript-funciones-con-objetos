@@ -3,7 +3,7 @@ describe("", function() {
    let persona = {
         experiencia: 4,
         lenguajes: ["JavaScript", "HTML","CSS"],
-        locacion: ["Buenos Aires"],
+        locacion: "Buenos Aires",
         remuneracion: 35000
       }
 
@@ -23,7 +23,7 @@ describe("", function() {
    let persona = {
         experiencia: 1,
         lenguajes: ["JavaScript", "HTML","CSS"],
-        locacion: ["Buenos Aires"],
+        locacion: "Buenos Aires",
         remuneracion: 35000
       }
 
@@ -43,7 +43,7 @@ describe("", function() {
    let persona = {
         experiencia: 4,
         lenguajes: ["CSS"],
-        locacion: ["Buenos Aires"],
+        locacion: "Buenos Aires",
         remuneracion: 35000
       }
 
@@ -63,7 +63,7 @@ describe("", function() {
    let persona = {
         experiencia: 4,
         lenguajes: ["JavaScript", "HTML"],
-        locacion: ["Buenos Aires"],
+        locacion: "Buenos Aires",
         remuneracion: 45000
       }
 
@@ -83,7 +83,7 @@ describe("", function() {
    let persona = {
         experiencia: 4,
         lenguajes: ["JavaScript", "HTML"],
-        locacion: ["Las Heras"],
+        locacion: "Las Heras",
         remuneracion: 45000
       }
 
