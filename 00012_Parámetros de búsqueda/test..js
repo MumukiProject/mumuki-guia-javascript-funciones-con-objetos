@@ -1,30 +1,30 @@
 describe("", function() {
-  it("Si hacemos parseQueryParams('http://www.exercises.com?keyword=objects&language=javascript&level=intermediate') el keyword es objects", function() {
-    let resultado =  parseQueryParams("http://www.exercises.com?keyword=objects&language=javascript&level=intermediate");
-    assert.equal(resultado.keyword, 'objects');
+  it("Si hacemos parsearParametrosDeBusqueda('http://www.exercises.com?palabraClave=objetos&lenguaje=javascript&nivel=intermedio') el palabraClave es objetos", function() {
+    let resultado =  parsearParametrosDeBusqueda("http://www.exercises.com?palabraClave=objetos&lenguaje=javascript&nivel=intermedio");
+    assert.equal(resultado.palabraClave, 'objetos');
   })
-  it("Si hacemos parseQueryParams('http://www.exercises.com?keyword=objects&language=javascript&level=intermediate') el language es javascript", function() {
-    let resultado =  parseQueryParams("http://www.exercises.com?keyword=objects&language=javascript&level=intermediate");
-    assert.equal(resultado.language, 'javascript');
+  it("Si hacemos parsearParametrosDeBusqueda('http://www.exercises.com?palabraClave=objetos&lenguaje=javascript&nivel=intermedio') el lenguaje es javascript", function() {
+    let resultado =  parsearParametrosDeBusqueda("http://www.exercises.com?palabraClave=objetos&lenguaje=javascript&nivel=intermedio");
+    assert.equal(resultado.lenguaje, 'javascript');
   })
-  it("Si hacemos parseQueryParams('http://www.exercises.com?keyword=objects&language=javascript&level=intermediate') el level es intermediate", function() {
-    let resultado =  parseQueryParams("http://www.exercises.com?keyword=objects&language=javascript&level=intermediate");
-    assert.equal(resultado.level, 'intermediate');
+  it("Si hacemos parsearParametrosDeBusqueda('http://www.exercises.com?palabraClave=objetos&lenguaje=javascript&nivel=intermedio') el nivel es intermedio", function() {
+    let resultado =  parsearParametrosDeBusqueda("http://www.exercises.com?palabraClave=objetos&lenguaje=javascript&nivel=intermedio");
+    assert.equal(resultado.nivel, 'intermedio');
   })
 });
 
 describe("", function() {
-  it("Si hacemos parseQueryParams('http://www.exercises.com?keyword=functional&language=haskell&level=advanced') el keyword es objects", function() {
-    let resultado =  parseQueryParams("http://www.exercises.com?keyword=functional&language=haskell&level=advanced");
-    assert.equal(resultado.keyword, 'functional');
+  it("Si hacemos parsearParametrosDeBusqueda('http://www.exercises.com?palabraClave=funcional&lenguaje=haskell&nivel=avanzado') el palabraClave es funcional", function() {
+    let resultado =  parsearParametrosDeBusqueda("http://www.exercises.com?palabraClave=funcional&lenguaje=haskell&nivel=avanzado");
+    assert.equal(resultado.palabraClave, 'funcional');
   })
-  it("Si hacemos parseQueryParams('http://www.exercises.com?keyword=functional&language=haskell&level=advanced') el language es haskell", function() {
-    let resultado =  parseQueryParams("http://www.exercises.com?keyword=functional&language=haskell&level=advanced");
-    assert.equal(resultado.language, 'haskell');
+  it("Si hacemos parsearParametrosDeBusqueda('http://www.exercises.com?palabraClave=funcional&lenguaje=haskell&nivel=avanzado') el lenguaje es haskell", function() {
+    let resultado =  parsearParametrosDeBusqueda("http://www.exercises.com?palabraClave=funcional&lenguaje=haskell&nivel=avanzado");
+    assert.equal(resultado.lenguaje, 'haskell');
   })
-  it("Si hacemos parseQueryParams('http://www.exercises.com?keyword=functional&language=haskell&level=advanced') el level es advanced", function() {
-    let resultado =  parseQueryParams("http://www.exercises.com?keyword=functional&language=haskell&level=advanced");
-    assert.equal(resultado.level, 'advanced');
+  it("Si hacemos parsearParametrosDeBusqueda('http://www.exercises.com?palabraClave=funcional&lenguaje=haskell&nivel=avanzado') el nivel es avanzado", function() {
+    let resultado =  parsearParametrosDeBusqueda("http://www.exercises.com?palabraClave=funcional&lenguaje=haskell&nivel=avanzado");
+    assert.equal(resultado.nivel, 'avanzado');
   })
 });
 
