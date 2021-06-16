@@ -10,6 +10,6 @@ describe("", function() {
   it("Si hacemos contarPalabras('Quizás porque no soy un buen comerciante no pido nada a cambio de darte'), nos retorna {Quizás: 1, porque: 1, no: 2, soy: 1, un: 1, buen: 1, comerciante: 1, pido: 1, nada: 1, a: 1, cambio: 1, de: 1, darte: 1}", function() {
    let frase = 'Quizás porque no soy un buen comerciante no pido nada a cambio de darte';
    let resultado = contarPalabras(frase);
-    assert.deepEqual(resultado, {Quizás: 1, porque: 1, no: 2, soy: 1, un: 1, buen: 1, comerciante: 1, pido: 1, nada: 1, a: 1, cambio: 1, de: 1, darte: 1});
+    assert.deepEqual(resultado, {quizás: 1, porque: 1, no: 2, soy: 1, un: 1, buen: 1, comerciante: 1, pido: 1, nada: 1, a: 1, cambio: 1, de: 1, darte: 1});
   })
 });
