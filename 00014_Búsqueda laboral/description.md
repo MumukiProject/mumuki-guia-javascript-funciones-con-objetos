@@ -14,16 +14,18 @@ let busqueda = {
   locacion: ["Buenos Aires"],
   remuneracion: 40000
 }
-
-ムseAdecua(persona, busqueda)
-true
 ```
 
-La persona es adecuada si:
+La persona se adecua si:
 
-- tiene igual o más años de experiencia que la búsqueda;
-- los lenguajes que conoce son los que contiene la búsqueda; (puede conocer más, pero no afecta en nada);
+- cuenta con los años de experiencia necesarios para la búsqueda;
+- los lenguajes que conoce son los que contiene la búsqueda (puede conocer más, pero no afecta en nada);
 - su locación está incluida dentro de las locaciones posibles de la búsqueda;
 - su remuneración (pretendida) es igual o menor a la de la búsqueda.
+
+``` javascript
+ム seAdecua(persona, busqueda)
+true
+```
 
 > Definí la función `seAdecua` para lograr el comportamiento que acabamos de describir.
