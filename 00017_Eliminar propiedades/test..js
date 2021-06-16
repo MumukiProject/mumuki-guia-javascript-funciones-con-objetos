@@ -3,7 +3,7 @@ describe("", function() {
    let data = { a: 1, b: 2, c: 3 };
    let propiedades = ['c'];
    let resultado = removerPropiedades(data, propiedades)
-    assert.deepEqual(resultado, {a: 1, d: 4});
+    assert.deepEqual(resultado, {a: 1, b: 2});
   })
 });
 
