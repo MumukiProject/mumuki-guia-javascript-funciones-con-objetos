@@ -28,7 +28,7 @@ describe("", function() {
 describe("", function() {
   it("Si hacemos diferencia({ a: 4, b: 8, c: 5 }, { a: 4, b: 8, c: 5 ) retorna {}", function() {
    let info1 = { a: 4, b: 8, c: 5 };
-   let info2 = { a: 4, b: 8, c: 5 ;
+   let info2 = { a: 4, b: 8, c: 5 };
    let resultado = diferencia(info1, info2)
     assert.deepEqual(resultado, {});
   })
